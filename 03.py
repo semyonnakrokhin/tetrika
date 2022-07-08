@@ -37,7 +37,7 @@ def appearance(intervals):
                         else: res_i.append((max(start_mini, start_glob), min(end_mini, end_glob)))
                     else:
                         res_i.append((max(start_mini, start_glob), min(end_mini, end_glob)))
-                        
+
             res= [*res, *res_i]
 
         return res
